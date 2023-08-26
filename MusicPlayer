@@ -1,0 +1,14 @@
+from playsound import playsound
+print("Number of songs:5")
+print(" 1.Sweetness-Of-Perfume\n2.Nothing-Is-Impossible\n3.Broken-Cup\n4.Our-God-Is-Good\n5.Purify-My-Heart")
+song=input("Enter your favourite song:")
+if "1" in song:
+    playsound("C:\\Users\\gudea\\OneDrive\\Documents\\Sweetness-Of-Perfume.mp3")
+elif "2" in song:
+    playsound("C:\\Users\\gudea\OneDrive\\Documents\\Nothing-Is-Impossible.mp3")
+elif "3" in song:
+    playsound("C:\\Users\\gudea\OneDrive\\Documents\\Broken-Cup.mp3")
+elif "4" in song:
+    playsound("C:\\Users\\gudea\OneDrive\\Documents\\Our-God-Is-Good.mp3")
+else:
+    print("C:\\Users\\gudea\\OneDrive\\Documents\\Purify-My-Heart.mp3")
