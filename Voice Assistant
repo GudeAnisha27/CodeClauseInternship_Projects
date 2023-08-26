@@ -1,0 +1,8 @@
+import pyttsx3
+import wikipedia
+voice=pyttsx3.init()
+In=input("How can I assist you")
+result=wikipedia.summary(In,sentences=5)
+print(result)
+voice.say(result)
+voice.runAndWait()
